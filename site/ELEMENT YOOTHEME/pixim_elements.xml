@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.4" type="plugin" group="system" method="upgrade">
+    <name>Pixim elements for YOOtheme pro</name>
+    <creationDate>MAY 2022</creationDate>
+    <copyright>Copyright (C) 2022. All rights reserved.</copyright>
+    <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+    <author>Pixim</author>
+    <authorEmail>alexis.web@pixim.com</authorEmail>
+    <authorUrl>https://pixim.fr</authorUrl>
+    <version>0.0.8</version>
+   <description>
+   		 <![CDATA[<html>
+			<table class="table">
+
+			   <tr>
+                <td>
+                <a href="https://pixim.fr" target="_blank"><img style="height:100px" src="https://www.pixim.fr/images/logos/logo_footer.svg"></a>
+               </td>
+               <td style="text-align:right;">
+                <h3 style="text-align:right;">Yootheme Elements by Pixim Communication</h3>
+               <hr>
+                Créé pour gagner du temps <a href="https://pixim.fr" target="_blank">https://www.pixim.fr</a>
+               </td></tr>
+               <tr>
+               <td>
+                <br>
+                <p>Elements :</p>
+                    <ul>
+                        <li>Boutons 3D</li>
+                        <li>Cube 3D</li>
+                    </ul>
+                </div>
+               </td>
+               <td>
+                <br>
+                <p>MINIMAL :</p>
+                    <ul>
+                        <li>Element / Pages - Mentions légales</li>
+                        <li>Element / Pages - Politique des cookies</li>
+                        <li>Element / Pages - Confidentialité</li>
+                        <li>Element / Menu - 3 pages ci-dessus</li>
+                        <li>Signature (designed by)</li>
+                    </ul>
+                </div>
+                </td>
+			   </tr>
+			   <tr>
+			   <td colspan="2" style="text-align:right; padding:10px 0 0 0; border-bottom:0px none">
+			   <a href="https://pixim.fr" target="_blank"><img style="max-height:50px" src="https://www.pixim.fr/images/logos/logo_footer.svg"></a>
+			   </td>
+			   </tr>
+		   </table>
+		     ]]>
+    </description>
+	<scriptfile>installer.php</scriptfile>
+    <files>
+        <folder>elements</folder>
+        <filename plugin="pixim_elements">pixim_elements.php</filename>
+    </files>
+</extension>
